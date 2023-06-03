@@ -1,4 +1,4 @@
-function typeExample1(){
+function example1(){
   interface Square {
     width: number;
   }
@@ -56,7 +56,7 @@ function example2(){
   }
 }
 
-function Example3() {
+function example3() {
   // 클래스로 선언하면 타입과 값으로 모두 사용 가능하므로 오류가 없다.
   class Square {
     constructor(public width: number) {}
