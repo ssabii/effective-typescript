@@ -1,4 +1,4 @@
-function item1() {
+namespace Item1 {
   function greet(who: string) {
     console.log("Hello", who);
   }

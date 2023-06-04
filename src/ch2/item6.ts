@@ -1,4 +1,4 @@
-function example() {
+namespace Item6 {
   let num = 10;
 
   function add(a: number, b: number){

@@ -1,4 +1,4 @@
-function example1(){
+namespace Item3 {
   interface Square {
     width: number;
   }
@@ -29,9 +29,7 @@ function example1(){
       return shape.width * shape.width;
     }
   }
-}
 
-function example2(){
   interface Square {
     kind: 'square';
     width: number;
@@ -54,9 +52,7 @@ function example2(){
       return shape.width * shape.width;
     }
   }
-}
 
-function example3() {
   // 클래스로 선언하면 타입과 값으로 모두 사용 가능하므로 오류가 없다.
   class Square {
     constructor(public width: number) {}
@@ -79,15 +75,7 @@ function example3() {
       return shape.width * shape.width;
     }
   }
-}
 
-function example4() {
-  function asNumber(val: number | string) {
-    return typeof val === 'string' ? Number(val) : val;
-  }
-}
-
-function example5() {
   function setLightSwitch(value: boolean) {
     switch(value) {
       case true:
@@ -108,9 +96,11 @@ function example5() {
   function turnLightOff() {
     console.log(`불을 끕니다.`);
   }
-}
 
-function example6 {
+  function asNumber(val: number | string) {
+    return typeof val === 'string' ? Number(val) : val;
+  }
+
   function add(a: number, b: number): number {
     return a + b;
   }
