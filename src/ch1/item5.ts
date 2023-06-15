@@ -1,4 +1,6 @@
 namespace Item5 {
+  // any 타입 지양하기
+
   let age: number;
   age = '12'; // 오류
   age = '12' as any; // 정상

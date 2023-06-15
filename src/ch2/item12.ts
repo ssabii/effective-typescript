@@ -1,4 +1,6 @@
 namespace Item12 {
+  // 함수 표현식에 타입 적용하기
+
   function rollDice1(sides: number): number {} // 문장
   const rollDice2 = function(sides: number): number { } // 표현식
   const rollDice3 = (sides: number): number => { } // 표현식

@@ -1,4 +1,6 @@
 namespace Item2 {
+  // 타입스크립트 설정 이해하기
+
   // noImplicitAny가 해제되어 있을 때는 유효한 코드
   function add(a, b) {
     return a + b;

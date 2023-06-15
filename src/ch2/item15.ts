@@ -1,4 +1,6 @@
 namespace Item15 {
+  // 동적 데이터에 인덱스 시그니처 사용하기
+
   const rocket = {
     name: 'Falcon 9',
     variant: 'Block 5',
@@ -84,7 +86,7 @@ namespace Item15 {
   // 매핑된 타입은 키를 통해 타입을 반복적으로 생성하는 제너릭 타입이다.
   type Vec3D = { [k in 'x' | 'y' | 'z']: number };
   type ABC = { [k in 'a' | 'b' | 'c']: k extends 'b' ? string : number };
-  
+
 
 
 }

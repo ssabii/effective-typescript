@@ -1,4 +1,6 @@
 namespace Item10 {
+  // 객체 래퍼 타입 피하기
+
   // 실제로는 이렇게 하지 말것!
   const originalCharAt = String.prototype.charAt;
   String.prototype.charAt = function(pos) {

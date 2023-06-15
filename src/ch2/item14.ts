@@ -1,4 +1,6 @@
 namespace Item14 {
+  // 타입 연산과 제너릭 사용으로 반복 줄이기
+
   console.log('Cylinder 1 x 1 ',
     'Surface area:', 6.283185 * 1 * 1 + 6.283185 * 1 * 1,
     'Volumn', 3.141592 * 1 * 1 * 1

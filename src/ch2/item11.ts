@@ -1,4 +1,6 @@
 namespace Item11 {
+  // 잉여 속성 체크의 한계 인지하기
+
   interface Room {
     numDoors: number;
     ceilingHeightFt: number;

@@ -1,4 +1,6 @@
 namespace Item4 {
+  // 구조적 타이핑에 익숙해지기
+
   interface Vector2D {
     x: number;
     y: number;

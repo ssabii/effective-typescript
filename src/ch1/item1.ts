@@ -1,4 +1,6 @@
 namespace Item1 {
+  // 타입스크립트와 자바스크립트의 관계 이해하기
+
   function greet(who: string) {
     console.log("Hello", who);
   }

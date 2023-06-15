@@ -1,4 +1,6 @@
 namespace Item17 {
+  // 변경 관련된 오류 방지를 위해 readonly 사용하기
+
   function printTriangles(n: number){
     const nums = [];
     for(let i = 0; i < n; i++) {

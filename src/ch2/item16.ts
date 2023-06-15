@@ -1,4 +1,6 @@
 namespace Item16 {
+  // number 인덱스 시그니처보다는 Array, 튜플, ArrayLike를 사용하기
+
   const xs = [1, 2, 3];
   const x0 = xs[0]; // OK
   const x1 = xs['1']; // 예제에서는 안된고 하지만 실제로는 잘 됨

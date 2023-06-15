@@ -1,4 +1,6 @@
 namespace Item7 {
+  // 타입이 값들의 집합이라고 생각하기
+
   let x: never = 12;
   // ~ Type '12' is not assignable to type 'never'.
 

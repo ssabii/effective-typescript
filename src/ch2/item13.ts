@@ -1,4 +1,6 @@
 namespace Item13 {
+  // 타입과 인터페이스의 차이점 알기
+
   type TState = {
     name: string;
     capital: string;
