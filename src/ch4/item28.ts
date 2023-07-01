@@ -63,6 +63,7 @@ namespace Item28 {
         return `Error! unable to load ${currentPage}: ${requestState.error}`;
       case 'ok':
         return `<h1>${currentPage}</h1>\n${requestState.pageText}`;
+    }
   }
 
   async function changePage(state: State, newPage: string) {
